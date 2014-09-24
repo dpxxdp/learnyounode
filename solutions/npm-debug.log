@@ -1,0 +1,199 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'stream-adventure' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose cache add [ 'stream-adventure', null ]
+5 verbose cache add name=undefined spec="stream-adventure" args=["stream-adventure",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'stream-adventure',
+6 verbose parsed url   path: 'stream-adventure',
+6 verbose parsed url   href: 'stream-adventure' }
+7 silly lockFile 27e6009b-stream-adventure stream-adventure
+8 verbose lock stream-adventure /Users/danielbarrett/.npm/27e6009b-stream-adventure.lock
+9 silly lockFile 27e6009b-stream-adventure stream-adventure
+10 silly lockFile 27e6009b-stream-adventure stream-adventure
+11 verbose addNamed [ 'stream-adventure', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9bf677f3-stream-adventure stream-adventure@
+14 verbose lock stream-adventure@ /Users/danielbarrett/.npm/9bf677f3-stream-adventure.lock
+15 silly addNameRange { name: 'stream-adventure', range: '*', hasData: false }
+16 verbose request where is /stream-adventure
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 3cb361ebc6ddf47b
+19 verbose url raw /stream-adventure
+20 verbose url resolving [ 'https://registry.npmjs.org/', './stream-adventure' ]
+21 verbose url resolved https://registry.npmjs.org/stream-adventure
+22 verbose request where is https://registry.npmjs.org/stream-adventure
+23 info trying registry request attempt 1 at 23:56:27
+24 http GET https://registry.npmjs.org/stream-adventure
+25 http 200 https://registry.npmjs.org/stream-adventure
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Wed, 24 Sep 2014 03:56:28 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"EMEI0MZZH8BHDVQ80NDG5ANDV"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '42870',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-iad2134-IAD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1411530988.315150,VS0,VE67',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'stream-adventure', range: '*', hasData: true }
+28 silly addNameRange versions [ 'stream-adventure',
+28 silly addNameRange   [ '0.0.0',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.0.2',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.1.1',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.4.1',
+28 silly addNameRange     '2.4.2',
+28 silly addNameRange     '2.4.3',
+28 silly addNameRange     '2.5.0' ] ]
+29 verbose addNamed [ 'stream-adventure', '2.5.0' ]
+30 verbose addNamed [ '2.5.0', '2.5.0' ]
+31 silly lockFile 9e84864a-stream-adventure-2-5-0 stream-adventure@2.5.0
+32 verbose lock stream-adventure@2.5.0 /Users/danielbarrett/.npm/9e84864a-stream-adventure-2-5-0.lock
+33 silly lockFile 5ea4a2bf-nture-stream-adventure-2-5-0-tgz https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz
+34 verbose lock https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz /Users/danielbarrett/.npm/5ea4a2bf-nture-stream-adventure-2-5-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz',
+35 verbose addRemoteTarball   'a090766b98e0ae44cc6aef7506c511af8dfc520c' ]
+36 info retry fetch attempt 1 at 23:56:28
+37 verbose fetch to= /var/folders/w_/l6bnt_vx1y3cpd_7r4b_thpc0000gn/T/npm-81270-GmTVq3Q-/registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz
+38 http GET https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz
+39 http 200 https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz
+40 silly lockFile 5ea4a2bf-nture-stream-adventure-2-5-0-tgz https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz
+41 silly lockFile 5ea4a2bf-nture-stream-adventure-2-5-0-tgz https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz
+42 silly lockFile 9e84864a-stream-adventure-2-5-0 stream-adventure@2.5.0
+43 silly lockFile 9e84864a-stream-adventure-2-5-0 stream-adventure@2.5.0
+44 silly lockFile 9bf677f3-stream-adventure stream-adventure@
+45 silly lockFile 9bf677f3-stream-adventure stream-adventure@
+46 silly resolved [ { name: 'stream-adventure',
+46 silly resolved     version: '2.5.0',
+46 silly resolved     description: 'an educational stream adventure',
+46 silly resolved     bin: { 'stream-adventure': 'bin/cmd.js' },
+46 silly resolved     dependencies:
+46 silly resolved      { x256: '~0.0.1',
+46 silly resolved        optimist: '~0.5.2',
+46 silly resolved        through: '~2.3.4',
+46 silly resolved        'tuple-stream': '~0.0.2',
+46 silly resolved        'terminal-menu': '~0.0.0',
+46 silly resolved        split: '~0.2.5',
+46 silly resolved        duplexer: '~0.1.1',
+46 silly resolved        'concat-stream': '~1.0.0',
+46 silly resolved        hyperquest: '~0.1.6',
+46 silly resolved        request: '~2.21.0',
+46 silly resolved        chunky: '~0.0.0',
+46 silly resolved        clone: '~0.1.9',
+46 silly resolved        wordwrap: '~0.0.2',
+46 silly resolved        tar: '~0.1.17',
+46 silly resolved        'websocket-stream': '~0.2.0',
+46 silly resolved        trumpet: '~1.6.2',
+46 silly resolved        ws: '~0.4.25',
+46 silly resolved        browserify: '~2.35.4',
+46 silly resolved        mkdirp: '~0.3.5',
+46 silly resolved        'stream-combiner': '~0.0.4',
+46 silly resolved        provinces: '~0.2.0' },
+46 silly resolved     devDependencies: { tape: '~2.3.0' },
+46 silly resolved     scripts: { test: 'tape test/*.js' },
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/substack/stream-adventure.git' },
+46 silly resolved     homepage: 'https://github.com/substack/stream-adventure',
+46 silly resolved     keywords: [ 'stream', 'educational', 'guide', 'tutorial', 'learn' ],
+46 silly resolved     author:
+46 silly resolved      { name: 'James Halliday',
+46 silly resolved        email: 'mail@substack.net',
+46 silly resolved        url: 'http://substack.net' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     gitHead: '62a6e34d25dda6705ecd7ab5cfd59507f696c584',
+46 silly resolved     bugs: { url: 'https://github.com/substack/stream-adventure/issues' },
+46 silly resolved     _id: 'stream-adventure@2.5.0',
+46 silly resolved     _shasum: 'a090766b98e0ae44cc6aef7506c511af8dfc520c',
+46 silly resolved     _from: 'stream-adventure@',
+46 silly resolved     _npmVersion: '1.4.15',
+46 silly resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'a090766b98e0ae44cc6aef7506c511af8dfc520c',
+46 silly resolved        tarball: 'http://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/stream-adventure/-/stream-adventure-2.5.0.tgz' } ]
+47 info install stream-adventure@2.5.0 into /usr/local/lib
+48 info installOne stream-adventure@2.5.0
+49 verbose lib/node_modules/stream-adventure unbuild
+50 verbose tar unpack /Users/danielbarrett/.npm/stream-adventure/2.5.0/package.tgz
+51 silly lockFile 77a2edc5-ib-node-modules-stream-adventure tar:///usr/local/lib/node_modules/stream-adventure
+52 verbose lock tar:///usr/local/lib/node_modules/stream-adventure /Users/danielbarrett/.npm/77a2edc5-ib-node-modules-stream-adventure.lock
+53 silly lockFile 4d7f8801-ream-adventure-2-5-0-package-tgz tar:///Users/danielbarrett/.npm/stream-adventure/2.5.0/package.tgz
+54 verbose lock tar:///Users/danielbarrett/.npm/stream-adventure/2.5.0/package.tgz /Users/danielbarrett/.npm/4d7f8801-ream-adventure-2-5-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/stream-adventure'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/stream-adventure']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/stream-adventure',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/stream-adventure',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.3.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "stream-adventure"
+60 error cwd /Users/danielbarrett/Developer/learnyounode/solutions
+61 error node -v v0.10.31
+62 error npm -v 1.4.23
+63 error path /usr/local/lib/node_modules/stream-adventure
+64 error fstream_path /usr/local/lib/node_modules/stream-adventure
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/stream-adventure'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
